@@ -12,6 +12,8 @@ El presente proyecto muestra el proceso de detección Automática de Matrículas
 ## Parte 1:
 Implemetar un modelo Pre entrenado llamado Wpod-net (https://programmerclick.com/article/83711379808/) Para detectar y extraer las placas (Matrículas) desde imágenes de Vehículos.
 
+### Importante Descomprimir el archivo dataset_caraters en la carpeta dataset_caracters
+
 ## Parte 2:
 Detección y Segmentación de los Caráctares de las Matrículas utilizando OpenCV Procesando imágenes segmentadas cambiandolas de RGB a tonos de Grises, y Contrastántolas para detectar caráteres.
 
