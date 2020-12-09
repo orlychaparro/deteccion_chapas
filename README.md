@@ -1,13 +1,30 @@
-## Update
-__(29/7/2020)__
-- Rename `utils.py` to  `local_utils.py` to avoid conflicit with default Python library `utils.py`.
-- Replace error `index out of range` to `No License plate is founded!`.
-- In case error `No License Plate is founded!` popped up, try to adjust Dmin from `get_plate()` function. Keep in mind that larger Dmin means more higly the plate information is lost.
+#Proyecto Final
+##Diplomado Machine Laearning - UCOM PRO
+##Universidad Comunera
+###Diciembre 2020
+####Orlando Chaparro
+#Proyecto:
+Detección Automática de Matriculas de Autovehículos Usando técnicas de Machine Learning..
 
-## [Read the series on Medium](https://medium.com/@quangnhatnguyenle/detect-and-recognize-vehicles-license-plate-with-machine-learning-and-python-part-1-detection-795fda47e922)
-- Part 1: [Detection License Plate with Wpod-Net](https://medium.com/@quangnhatnguyenle/detect-and-recognize-vehicles-license-plate-with-machine-learning-and-python-part-1-detection-795fda47e922)
-- Part 2: [Plate character segmentation with OpenCV](https://medium.com/@quangnhatnguyenle/detect-and-recognize-vehicles-license-plate-with-machine-learning-and-python-part-2-plate-de644de9849f)
-- Part 3: [Recognize plate license characters with OpenCV and Deep Learning](https://medium.com/@quangnhatnguyenle/detect-and-recognize-vehicles-license-plate-with-machine-learning-and-python-part-3-recognize-be2eca1a9f12)
+El presente proyecto muestra el proceso de detección Automática de Matrículas de autmóviles y reconocimiento de Números. Utilizando Modelo Pre entrenados, Tecnicas de Computer vision con OpenCV y Reconocimiento de Carácteres con Neural Network.
+
+#El proyecto consta de tres partes Pirncipales:
+##Parte 1:
+Implemetar un modelo Pre entrenado llamado Wpod-net (https://programmerclick.com/article/83711379808/) Para detectar y extraer las placas (Matrículas) desde imágenes de Vehículos.
+
+##Parte 2:
+Detección y Segmentación de los Caráctares de las Matrículas utilizando OpenCV Procesando imágenes segmentadas cambiandolas de RGB a tonos de Grises, y Contrastántolas para detectar caráteres.
+
+##Parte 3:
+Predicción de los Caracters segementados obtenidos y su reconocimento como Texto
+
+## Extra: Proceso de Entrenamiento de Redes Neuronales para Predecir Carácteres y crear el modelo predictivo.
+
+Fuente: Quang Nguyen https://medium.com/@quangnhatnguyenle/detect-and-recognize-vehicles-license-plate-with-machine-learning-and-python-part-1-detection-795fda47e922
+
+Github: https://github.com/quangnhat185/Plate_detect_and_recognize
+
+
 
 ## Tools and Libraries
 - Python==3.6
@@ -17,19 +34,6 @@ __(29/7/2020)__
 - Matplotlib==3.2.1
 - OpenCV==4.1.0
 - sklearn==0.21.3
-
-# Detect and Recognize Vehicle’s License Plate with Machine Learning and Python 
-
-### [Part 1: Detection License Plate with Wpod-Net](https://medium.com/@quangnhatnguyenle/detect-and-recognize-vehicles-license-plate-with-machine-learning-and-python-part-1-detection-795fda47e922)
-<p align="center"><img src="./figures/Part1_result.jpg" width=640></p><br>
-
-### [Part 2: Plate character segmentation with OpenCV](https://medium.com/@quangnhatnguyenle/detect-and-recognize-vehicles-license-plate-with-machine-learning-and-python-part-2-plate-de644de9849f)
-
-<p align="center"><img src="./figures/Part2_result.jpg" width=640></p><br>
-
-### [Part 3: Recognize plate license characters with OpenCV and Deep Learning](https://medium.com/@quangnhatnguyenle/detect-and-recognize-vehicles-license-plate-with-machine-learning-and-python-part-3-recognize-be2eca1a9f12)
-
-<p align="center"><img src="./figures/Part3_result.jpg" width=640></p><br>
 
 
 ## Credit
