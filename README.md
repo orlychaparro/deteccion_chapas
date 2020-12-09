@@ -1,21 +1,21 @@
-#Proyecto Final
-##Diplomado Machine Laearning - UCOM PRO
-##Universidad Comunera
-###Diciembre 2020
-####Orlando Chaparro
+# Proyecto Final
+## Diplomado Machine Laearning - UCOM PRO
+## Universidad Comunera
+### Diciembre 2020
+#### Orlando Chaparro
 #Proyecto:
 Detección Automática de Matriculas de Autovehículos Usando técnicas de Machine Learning..
 
 El presente proyecto muestra el proceso de detección Automática de Matrículas de autmóviles y reconocimiento de Números. Utilizando Modelo Pre entrenados, Tecnicas de Computer vision con OpenCV y Reconocimiento de Carácteres con Neural Network.
 
-#El proyecto consta de tres partes Pirncipales:
-##Parte 1:
+# El proyecto consta de tres partes Pirncipales:
+## Parte 1:
 Implemetar un modelo Pre entrenado llamado Wpod-net (https://programmerclick.com/article/83711379808/) Para detectar y extraer las placas (Matrículas) desde imágenes de Vehículos.
 
-##Parte 2:
+## Parte 2:
 Detección y Segmentación de los Caráctares de las Matrículas utilizando OpenCV Procesando imágenes segmentadas cambiandolas de RGB a tonos de Grises, y Contrastántolas para detectar caráteres.
 
-##Parte 3:
+## Parte 3:
 Predicción de los Caracters segementados obtenidos y su reconocimento como Texto
 
 ## Extra: Proceso de Entrenamiento de Redes Neuronales para Predecir Carácteres y crear el modelo predictivo.
